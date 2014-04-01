@@ -1,0 +1,220 @@
+{
+  "name": "CIC",
+  "children": [
+    {
+      "name": "NACo Basics",
+      "children": [
+       {
+         "name": "Basic County Information",
+         "years": [2013],
+         "children": [
+            {"name": "fips"},
+            {"name": "County Name"},
+            {"name": "State"},
+            {"name": "NACo Member"},
+            {"name": "Govermnet Type"},
+            {"name": "Population Size"}
+         ]
+       }
+      ]
+    },
+    {
+      "name": "Administration",
+      "children": [
+        {
+          "name": "Expenditures on Administration",
+          "years": [2007],
+          "children": [
+            {"name": "Total Expenditures (in thousands)"},
+            {"name": "Financial Administration (in thousands)"},
+            {"name": "Other Governmental Administration (in thousands)"},
+            {"name": "Social Insurance Administration (in thousands)"},
+            {"name": "Current Operations (in thousands)"},
+            {"name": "Construction (in thousands)"},
+            {"name": "Capital Outlay (in thousands)"},
+            {"name": "Intergovernmental to state (in thousands)"},
+            {"name": "Intergovernmental to local (in thousands)"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "County Employment",
+      "children": [
+        {
+          "name": "Total FTE Employees",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+            {"name": "Total Number of FTE Employees"},
+            {"name": "Administration"},
+            {"name": "Community Amenity Services"},
+            {"name": "Education"},
+            {"name": "Housing & Community Development"},
+            {"name": "Helath & Hospitals"},
+            {"name": "Justice"},
+            {"name": "Other"},
+            {"name": "Public Safety"},
+            {"name": "Public Welfare"},
+            {"name": "Transportation"},
+            {"name": "Utility Expenditure"},
+            {"name": "Water, Sewage & Solid Waste"}
+          ]
+        },
+        {
+          "name": "Total FTE Employees by detailed subcategory",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+            {"name": "Financial Administration"},
+            {"name": "Other Governmental Administration"},
+            {"name": "Social Insurance Administration"},
+            {"name": "Libraries"},
+            {"name": "Natural Resources"},
+            {"name": "Parks & Recreation"},
+            {"name": "Elementray & Secondary Education"},
+            {"name": "Higher Education"},
+            {"name": "Housing & Community Development"},
+            {"name": "Helath"},
+            {"name": "Hospitals"},
+            {"name": "Correction"},
+            {"name": "Judicial and Legal Services"},
+            {"name": "Police Protection"},
+            {"name": "Other & Unallocable"},
+            {"name": "Fire Proctection -- Firefighters"},
+            {"name": "Fire Protection -- Other"},
+            {"name": "Public Welfare"},
+            {"name": "Air Tranportation"},
+            {"name": "Highways"},
+            {"name": "Sea & Inland Port"},
+            {"name": "Transit Utilities"},
+            {"name": "Electric Utilities"},
+            {"name": "Gas Utilities"},
+            {"name": "Sewerage"},
+            {"name": "Solid Waste"},
+            {"name": "Water Utilities"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "County Finance",
+      "children": [
+        {
+          "name": "Revenue by Sector",
+          "years": [2007],
+          "children": [
+           {"name": "Total Revenue (in thousands)"},
+           {"name": "Charges & Misc. General Revenue (in thousands)"},
+           {"name": "Tax (in thousands)"},
+           {"name": "Intergovernmental Revenue (in thousands)"},
+           {"name": "Liquor Store Revenue (in thousands)"},
+           {"name": "Social Insurance Trust Revenue (in thousands)"},
+           {"name": "Utility Revenua (in thousands)"}
+          ]
+        },
+        {
+          "name": "Revenue by Detailed Subcategory",
+          "years": [2007],
+          "children": [
+           {"name": "Charges (in thousands)"},
+           {"name": "Misc. General Revenue (in thousands)"},
+           {"name": "Intergovernmental - From Federal Government (in thousands)"},
+           {"name": "Intergovernmental - From Local Government (in thousands)"},
+           {"name": "Intergovernmental - From State Government (in thousands)"},
+           {"name": "Liquor Store Revenue (in thousands)"},
+           {"name": "Social Insurance Trust Revenue - Public Employee Retirement Systems (in thousands)"},
+           {"name": "Social Insurance Trust Revenue - Unemployment Compensation Systems (in thousands)"},
+           {"name": "Tax - Income Taxes (in thousands)"},
+           {"name": "Tax - License Taxes (in thousands)"},
+           {"name": "Tax - Other Taxes (in thousands)"},
+           {"name": "Tax - Property Taxes (in thousands)"},
+           {"name": "Tax - Sales & Gross Receipts Taxes (in thousands)"},
+           {"name": "Utility Revenue - Electric Power Systems (in thousands)"},
+           {"name": "Utility Revenue - Gas Supply Systems (in thousands)"},
+           {"name": "Utility Revenue - Public Mass Transit Systems (in thousands)"},
+           {"name": "Utility Revenue - Water Supply Systems (in thousands)"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "County Structure",
+      "children": [
+        {
+          "name": "Government Structure",
+          "years": [2009],
+          "children": [
+            {"name": "Financial Administration"},
+            {"name": "Other Governmental Administration"},
+            {"name": "Social Insurance Administration"},
+            {"name": "Libraries"},
+            {"name": "Natural Resources"},
+            {"name": "Parks & Recreation"},
+            {"name": "Elementray & Secondary Education"},
+            {"name": "Higher Education"},
+            {"name": "Housing & Community Development"},
+            {"name": "Helath"},
+            {"name": "Hospitals"},
+            {"name": "Correction"},
+            {"name": "Judicial and Legal Services"},
+            {"name": "Police Protection"},
+            {"name": "Other & Unallocable"},
+            {"name": "Fire Proctection -- Firefighters"},
+            {"name": "Fire Protection -- Other"},
+            {"name": "Public Welfare"},
+            {"name": "Air Tranportation"},
+            {"name": "Highways"},
+            {"name": "Sea & Inland Port"},
+            {"name": "Transit Utilities"},
+            {"name": "Electric Utilities"},
+            {"name": "Gas Utilities"},
+            {"name": "Sewerage"},
+            {"name": "Solid Waste"},
+            {"name": "Water Utilities"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Economy"
+    },
+    {
+      "name": "Education"
+    },
+    {
+      "name": "Federal Funding"
+    },
+    {
+        "name": "Geography"
+    },
+    {
+        "name": "Health & Hospitals"
+    },
+    {
+        "name": "Housing & Community Development"
+    },
+    {
+        "name": "Justice & Public Safety"
+    },
+    {
+        "name": "Land & Housing"
+    },
+    {
+        "name": "Demographics"
+    },
+    {
+        "name": "Public Amenities"
+    },
+    {
+        "name": "Public Welfare"
+    },
+    {
+        "name": "Transportation"
+    },
+    {
+        "name": "Utility"
+    },
+    {
+        "name": "Water, Sewage & Solid Waste Management"
+    }
+  ]
+}
