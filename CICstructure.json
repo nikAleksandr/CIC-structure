@@ -176,12 +176,194 @@
     },
     {
       "name": "Economy"
+      "children": [
+        {
+          "name": "Household Income",
+          "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012],
+          "children": [
+            {"name": "Total Households"},
+            {"name": "Per Capita Income"},
+            {"name": "Median Household Income"},
+            {"name": "Number of Households with Less than $10,000"},
+            {"name": "Percentage of Households with Less than $10,000"},
+            {"name": "Number of Households with Income Between $10,000 - $14,999"},
+            {"name": "Percentage of Households with Income Between $10,000 - $14,999"},
+            {"name": "Number of Households with Income Between $15,000 - $24,999"},
+            {"name": "Number of Households with Income Between $15,000 - $24,999"},
+            {"name": "Percentage of Households with Income Between $25,000 - $34,999"},
+            {"name": "Number of Households with Income Between $25,000 - $34,999"},
+            {"name": "Percentage of Households with Income Between $35,000 - $49,999"},
+            {"name": "Number of Households with Income Between $35,000 - $49,999"},
+            {"name": "Percentage of Households with Income Between $50,000 - $74,999"},
+            {"name": "Number of Households with Income Between $50,000 - $74,999"},
+            {"name": "Percentage of Households with Income Between $75,000 - $99,999"},
+            {"name": "Number of Households with Income Between $75,000 - $99,999"},
+            {"name": "Percentage of Households with Income Between $100,000 - $149,999"},
+            {"name": "Number of Households with Income Between $100,000 - $149,999"},
+            {"name": "Percentage of Households with Income Between $150,000 - $199,999"},
+            {"name": "Number of Households with Income Between $150,000 - $199,999"},
+            {"name": "Percentage of Households with Income of $200,000 or more"},
+            {"name": "Number of Households with Income of $200,000 or more"}
+          ]
+        },
+        {
+          "name": "Labor Force"
+          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]
+          "children": [
+            {"name": "Civilian Labor Force"},
+            {"name": "Number Employed"},
+            {"name": "Number Unemployed"},
+            {"name": "Percent Unemployed"}
+          ]
+        },
+        {
+          "name": "Unemployment Rate"
+          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+          "children": [
+          	{"name": "Unemployment Rate PPT Change"}
+          ]
+        },
+        {
+          "name": "Economic Output (GDP)"
+          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+          "children": [
+          	{"name": "Economic Output Growth Rate"}
+        },
+        {
+          "name": "Median Home Sales Prices"
+          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+          "children": [
+          	{"name": "Median Home Sales Price Growth Rate"}
+        },
+        {
+          "name": "Employment (Jobs)"
+          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+          "children": [
+          	{"name": "Employment Growth Rate"}
+        }
+      ]
     },
     {
       "name": "Education"
+      "children": [
+        {
+        	"name": "Expenditures on Education",
+        	"years": [2007],
+        	"children": [
+        		{"name": "Total Expenditures (in thousands)"},
+        		{"name": "Elementary and Secondary Education (in thousands)"},
+        		{"name": "Higher Education (in thousands)"},
+        		{"name": "Current Operations (in thousands)"},
+        		{"name": "Construction (in thousands)"},
+        		{"name": "Other Capital Outlay (in thousands)"},
+        		{"name": "Intergovernmental to State (in thousands)"},
+        		{"name": "Intergovernmental to Local (in thousands)"}
+        	]
+        },
+        {
+        	"name": "Public Elementary & Seconday Schools",
+        	"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]
+        	"children": [
+        		{"name": "District Name"},
+        		{"name": "District Address"},
+        		{"name": "City"},
+        		{"name": "Zip"},
+        		{"name": "Phone Number"},
+        		{"name": "Total Number Operational Schools"},
+        		{"name": "District Type"},
+        		{"name": "Lowest Grade Offered"},
+        		{"name": "Highest Grade Offered"},
+        		{"name": "Totatl Students"},
+        		{"name": "FTE Teachers"},
+        		{"name": "Pupil/Teacher Ratio"}
+        	]
+        },
+        {
+        	"name": "Colleges & Universities",
+        	"years": [2009, 2010, 2011, 2012],
+        	"children": [
+        	  {"name": "ID Number"},
+        	  {"name": "Institution Name"},
+        	  {"name": "Address"},
+        	  {"name": "City"},
+        	  {"name": "State"},
+        	  {"name": "Zip"},
+        	  {"name": "Public Institution"},
+        	  {"name": "Institution Level"},
+        	  {"name": "Total Enrollment"},
+        	  {"name": "Male Enrollment"},
+        	  {"name": "Female Enrollment"},
+        	  {"name": "In-State Tuition"},
+        	  {"name": "Out-of-State Tuition"},
+        	  {"name": "Longitude"},
+        	  {"name": "Latitude"}
+        	]
+        }
+      ]
     },
     {
       "name": "Federal Funding"
+      "children": [
+      	{
+      		"name": "Payment in Lieu of Taxes (PILT)"
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]
+      		"children": [
+      			{"name": "PILT Allocation"},
+      			{"name": "Total Federal Land Area"},
+      			{"name": "Total County Area"},
+      			{"name": "Percentage of Federal Land"},
+      			{"name": "PILT per Square Mile"}
+      		]
+      	},
+      	{
+      		"name": "Community Development Block Grant (CDBG)",
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      		"children": [
+      			{"name": "CDBG Allocation"}
+      		]
+      	},
+      	{
+      		"name": "HOME Investment Partnerships Grant",
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      		"children": [
+      			{"name": "HOME Allocation"}
+      		]
+      	},
+      	{
+      		"name": "State Criminal Alien Assistance Program",
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      		"children": [
+      			{"name": "SCAAP Allocation"}
+      		]
+      	},
+      	{
+      		"name": "HUD Community Planning & Development Grants",
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
+      		"children": [
+      			{"name": "HUD Community Planning & Development Grant Allocation"}
+      		]
+      	},
+      	{
+      		"name": "Housing and Urban Development Grants",
+      		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+      		"children": [
+      			{"name": "CDBG Allocation"},
+      			{"name": "HOME Investment Partnerships Allocation"},
+      			{"name": "Housing Opportunities for Persons with AIDS (HOPWA) Allocation"},
+      			{"Name": "Emergency Solutions Grant Program (ESG) Allocation"},
+      			{"name": "Total HUD Allocation"}
+      		]
+      	},
+      	{
+      		"name": "USDA Rural Development",
+      		"years": [2009, 2010, 2011, 2012],
+      		"children": [
+      			{"name": "Grant Amount"},
+      			{"name": "Loan Amount"},
+      			{"name": "Total Amount"}
+      		]
+      	}
+      ]
     },
     {
         "name": "Geography"
