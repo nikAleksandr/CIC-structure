@@ -2,23 +2,6 @@
   "name": "CIC",
   "children": [
     {
-      "name": "NACo Basics",
-      "children": [
-       {
-         "name": "Basic County Information",
-         "years": [2013],
-         "children": [
-            {"name": "fips"},
-            {"name": "County Name"},
-            {"name": "State"},
-            {"name": "NACo Member"},
-            {"name": "Govermnet Type"},
-            {"name": "Population Size"}
-         ]
-       }
-      ]
-    },
-    {
       "name": "Administration",
       "children": [
         {
@@ -316,20 +299,6 @@
       		]
       	},
       	{
-      		"name": "Community Development Block Grant (CDBG)",
-      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
-      		"children": [
-      			{"name": "CDBG Allocation"}
-      		]
-      	},
-      	{
-      		"name": "HOME Investment Partnerships Grant",
-      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
-      		"children": [
-      			{"name": "HOME Allocation"}
-      		]
-      	},
-      	{
       		"name": "State Criminal Alien Assistance Program",
       		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
       		"children": [
@@ -337,18 +306,11 @@
       		]
       	},
       	{
-      		"name": "HUD Community Planning & Development Grants",
-      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
-      		"children": [
-      			{"name": "HUD Community Planning & Development Grant Allocation"}
-      		]
-      	},
-      	{
       		"name": "Housing and Urban Development Grants",
       		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
       		"children": [
-      			{"name": "CDBG Allocation"},
-      			{"name": "HOME Investment Partnerships Allocation"},
+      			{"name": "Community Development Block Grants (CDBG) Allocation"},
+      			{"name": "HOME Investment Partnerships (HOME) Allocation"},
       			{"name": "Housing Opportunities for Persons with AIDS (HOPWA) Allocation"},
       			{"Name": "Emergency Solutions Grant Program (ESG) Allocation"},
       			{"name": "Total HUD Allocation"}
@@ -366,7 +328,59 @@
       ]
     },
     {
-        "name": "Geography"
+		"name": "Geography"
+		"children": [
+		   {
+			     "name": "County Profile",
+				 "years": [2013],
+				 "children": [
+					{"name": "fips"},
+					{"name": "County Name"},
+					{"name": "State"},
+					{"name": "NACo Member"},
+					{"name": "Govermnet Type"},
+					{"name": "Population Size"},
+					{"name": "County Seat"},
+					{"name": "Year Founded"},
+					{"name": "Year Consolidated"},
+					{"name": "Board Size"},
+					{"name": "County Square Mileage"},
+					{"name": "Fiscal Year End Date"},
+					{"name": "State Capitol"},
+					{"name": "CBSA Name"},
+			     ]
+		   },
+		   {
+			   	"name": "Cities Within Counties"
+			   	"years": [2012],
+			   	"children": [
+			   		{"name": "City"}
+			   	]
+		   },
+		   {
+			   	"name": "Land & Water Area",
+			   	"years": [2010],
+			   	"children": [
+			   		{"name": "Total Square Miles"},
+			   		{"name": "Total Land Square Miles"},
+			   		{"name": "Total Water Square Miles"},
+			   		{"name": "Coastal Status"},
+			   		{"name": "Body of Water"}
+			   	]
+		   },
+		   {
+		   		"name": "Metro-Micro Areas (MSA)",
+		   		"years": [2013],
+		   		"children": [
+		   			{"name": "CBSA Code"},
+		   			{"name": "CSA Code"},
+		   			{"name": "CBSA Title"},
+		   			{"name": "CSA Title"},
+		   			{"name": "Level of CBSA"},
+		   			{"name": "County Status"}
+		   		]
+		   }
+		]
     },
     {
         "name": "Health & Hospitals"
