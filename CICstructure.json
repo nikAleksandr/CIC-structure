@@ -158,7 +158,7 @@
       ]
     },
     {
-      "name": "Economy"
+      "name": "Economy",
       "children": [
         {
           "name": "Household Income",
@@ -190,8 +190,8 @@
           ]
         },
         {
-          "name": "Labor Force"
-          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]
+          "name": "Labor Force",
+          "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
             {"name": "Civilian Labor Force"},
             {"name": "Number Employed"},
@@ -200,34 +200,37 @@
           ]
         },
         {
-          "name": "Unemployment Rate"
+          "name": "Unemployment Rate",
           "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
           "children": [
           	{"name": "Unemployment Rate PPT Change"}
           ]
         },
         {
-          "name": "Economic Output (GDP)"
+          "name": "Economic Output (GDP)",
           "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
           "children": [
           	{"name": "Economic Output Growth Rate"}
+          ]
         },
         {
-          "name": "Median Home Sales Prices"
+          "name": "Median Home Sales Prices",
           "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
           "children": [
           	{"name": "Median Home Sales Price Growth Rate"}
+          ]
         },
         {
-          "name": "Employment (Jobs)"
+          "name": "Employment (Jobs)",
           "years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
           "children": [
           	{"name": "Employment Growth Rate"}
+          ]
         }
       ]
     },
     {
-      "name": "Education"
+      "name": "Education",
       "children": [
         {
         	"name": "Expenditures on Education",
@@ -245,7 +248,7 @@
         },
         {
         	"name": "Public Elementary & Seconday Schools",
-        	"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010]
+        	"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010],
         	"children": [
         		{"name": "District Name"},
         		{"name": "District Address"},
@@ -285,11 +288,11 @@
       ]
     },
     {
-      "name": "Federal Funding"
+      "name": "Federal Funding",
       "children": [
       	{
-      		"name": "Payment in Lieu of Taxes (PILT)"
-      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012]
+      		"name": "Payment in Lieu of Taxes (PILT)",
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
       		"children": [
       			{"name": "PILT Allocation"},
       			{"name": "Total Federal Land Area"},
@@ -328,7 +331,7 @@
       ]
     },
     {
-		"name": "Geography"
+		"name": "Geography",
 		"children": [
 		   {
 			     "name": "County Profile",
@@ -347,11 +350,11 @@
 					{"name": "County Square Mileage"},
 					{"name": "Fiscal Year End Date"},
 					{"name": "State Capitol"},
-					{"name": "CBSA Name"},
+					{"name": "CBSA Name"}
 			     ]
 		   },
 		   {
-			   	"name": "Cities Within Counties"
+			   	"name": "Cities Within Counties",
 			   	"years": [2012],
 			   	"children": [
 			   		{"name": "City"}

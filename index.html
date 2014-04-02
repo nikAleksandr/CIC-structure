@@ -83,6 +83,7 @@
 					      .data(nodes)
 					    .enter().append("g")
 					      .attr("class", "node")
+					      .attr("title", function(d){ return d.name; }),
 					      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; });
 					
 					  node.append("circle")
