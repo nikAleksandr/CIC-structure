@@ -204,16 +204,16 @@
            {"name": "Other Public Welfare (in thousands)"},
            {"name": "Air Transportation (in thousands)"},
            {"name": "Highways (in thousands)"},
-           {"name": "Parking Facilities (in thousands)"}                    
-           {"name": "Sea & Inland Port (in thousands)"}                    
-           {"name": "Transit Utilities (in thousands)"}                    
-           {"name": "Electric Utilities (in thousands)"}                    
-           {"name": "Gas Utilities (in thousands)"}                    
-           {"name": "Sewerage (in thousands)"}                    
-           {"name": "Solid Waste (in thousands)"}                    
+           {"name": "Parking Facilities (in thousands)"},           
+           {"name": "Sea & Inland Port (in thousands)"},                    
+           {"name": "Transit Utilities (in thousands)"},                    
+           {"name": "Electric Utilities (in thousands)"},                    
+           {"name": "Gas Utilities (in thousands)"},                    
+           {"name": "Sewerage (in thousands)"},                    
+           {"name": "Solid Waste (in thousands)"},                    
            {"name": "Waste Utilities (in thousands)"}                    
           ]
-        }
+        },
         {
           "name": "Combined Tax Rates",
           "years": [2007, 2008, 2009, 2010, 2011],
@@ -233,7 +233,7 @@
            {"name": "Other Tax 2 Rate"},
            {"name": "Other Tax 2 Descriptor"}
           ]
-        },
+        }
       ]
     },
     {
@@ -882,7 +882,7 @@
         			{"name": "Address"},
         			{"name": "City"},
         			{"name": "Zip"},
-        			{"name": "Population of Local Service Area"}
+        			{"name": "Population of Local Service Area"},
         			{"name": "Number of Central Service Outlets"},
         			{"name": "Number of Branches"},
         			{"name": "Number of Bookmobiles"},
