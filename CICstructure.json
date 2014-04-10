@@ -15,8 +15,8 @@
             {"name": "Current Operations (in thousands)"},
             {"name": "Construction (in thousands)"},
             {"name": "Capital Outlay (in thousands)"},
-            {"name": "Intergovernmental to state (in thousands)"},
-            {"name": "Intergovernmental to local (in thousands)"}
+            {"name": "Intergovernmental to State (in thousands)"},
+            {"name": "Intergovernmental to Local (in thousands)"}
           ]
         }
       ]
@@ -53,17 +53,17 @@
             {"name": "Libraries"},
             {"name": "Natural Resources"},
             {"name": "Parks & Recreation"},
-            {"name": "Elementray & Secondary Education"},
+            {"name": "Elementary & Secondary Education"},
             {"name": "Higher Education"},
             {"name": "Housing & Community Development"},
-            {"name": "Helath"},
+            {"name": "Health"},
             {"name": "Hospitals"},
             {"name": "Correction"},
             {"name": "Judicial & Legal Services"},
             {"name": "Police Protection"},
             {"name": "Other & Unallocable"},
-            {"name": "Fire Proctection -- Firefighters"},
-            {"name": "Fire Protection -- Other"},
+            {"name": "Fire Protection - Firefighters"},
+            {"name": "Fire Protection - Other"},
             {"name": "Public Welfare"},
             {"name": "Air Tranportation"},
             {"name": "Highways"},
@@ -91,11 +91,11 @@
            {"name": "Intergovernmental Revenue (in thousands)"},
            {"name": "Liquor Store Revenue (in thousands)"},
            {"name": "Social Insurance Trust Revenue (in thousands)"},
-           {"name": "Utility Revenua (in thousands)"}
+           {"name": "Utility Revenue (in thousands)"}
           ]
         },
         {
-          "name": "Revenue by Detailed Subcategory",
+          "name": "Revenue by Detailed Subcategory Sector",
           "years": [2007],
           "children": [
            {"name": "Charges (in thousands)"},
@@ -116,7 +116,124 @@
            {"name": "Utility Revenue - Public Mass Transit Systems (in thousands)"},
            {"name": "Utility Revenue - Water Supply Systems (in thousands)"}
           ]
+        },
+        {
+          "name": "Annual Financial Report - Revenue",
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
+          "children": [
+           {"name": "Total Revenue"},
+           {"name": "Total Taxes"},
+           {"name": "Licesnses and Permits"},
+           {"name": "Fines, Fees & Forfeits"},
+           {"name": "Intergovernmental"},
+           {"name": "Use of Money & Property"},
+           {"name": "Investment Earnings"},
+           {"name": "Charges for Services"},
+           {"name": "Other"}
+          ]
+        },
+        {
+          "name": "Annual Financial Report - Expenses",
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
+          "children": [
+           {"name": "Total Expenditures"},
+           {"name": "General Government"},
+           {"name": "Public Works, Buildings & Transportation"},
+           {"name": "Public Safety & Court Related"},
+           {"name": "Health & Human Services"},
+           {"name": "Education, Culture & Recreation"},
+           {"name": "Intergovernmental"},
+           {"name": "Environmental Protection/Natural Resources"},
+           {"name": "Community & Economic Development"},
+           {"name": "Total Debt"},
+           {"name": "Capital Projects"},
+           {"name": "Other"}
+          ]
+        },
+        {
+          "name": "Expenditures by Sector",
+          "years": [2007],
+          "children": [
+           {"name": "Total Expenditures (in thousands)"},
+           {"name": "Administration (in thousands)"},
+           {"name": "Community Amenity Services (in thousands)"},
+           {"name": "Education (in thousands)"},
+           {"name": "Housing & Community Developments (in thousands)"},
+           {"name": "Health & Hospitals (in thousands)"},
+           {"name": "Interest on General Debt (in thousands)"},
+           {"name": "Insurance Trust Expenditure (in thousands)"},
+           {"name": "Justice (in thousands)"},
+           {"name": "Liquor Store Expenditure (in thousands)"},
+           {"name": "Other (in thousands)"},
+           {"name": "Public Safety (in thousands)"},
+           {"name": "Public Welfare (in thousands)"},
+           {"name": "Transportation (in thousands)"},
+           {"name": "Utility Expenditure (in thousands)"},
+           {"name": "Water, Sewerage & Solid Waste (in thousands)"}
+          ]
+        },
+        {
+          "name": "Expenditures by Detailed Subcategory Sector",
+          "years": [2007],
+          "children": [
+           {"name": "Financial Administration (in thousands)"},
+           {"name": "Other Governmental Administration (in thousands)"},
+           {"name": "Social Insurance Administration (in thousands)"},
+           {"name": "Libraries (in thousands)"},
+           {"name": "Natural Resources (in thousands)"},
+           {"name": "Parks & Recreation (in thousands)"},
+           {"name": "Elementary & Secondary Education (in thousands)"},
+           {"name": "Higher Education (in thousands)"},
+           {"name": "Housing & Community Development (in thousands)"},
+           {"name": "Health (in thousands)"},
+           {"name": "Hospitals (in thousands)"},
+           {"name": "Interest on General Debt (in thousands)"},
+           {"name": "Employee Retirement (in thousands)"},
+           {"name": "Unemployment (in thousands)"},
+           {"name": "Correction (in thousands)"},
+           {"name": "Judicial & Legal Services (in thousands)"},
+           {"name": "Police Protection (in thousands)"},
+           {"name": "Liquor Stores (in thousands)"},
+           {"name": "Misc. Commercial Activities (in thousands)"},
+           {"name": "Other & Unallocable (in thousands)"},
+           {"name": "General Public Buildings (in thousands)"},
+           {"name": "Fire Protection (in thousands)"},
+           {"name": "Protective Inspection (in thousands)"},
+           {"name": "Cash Assistance (in thousands)"},
+           {"name": "Vendor Payments (in thousands)"},
+           {"name": "Other Public Welfare (in thousands)"},
+           {"name": "Air Transportation (in thousands)"},
+           {"name": "Highways (in thousands)"},
+           {"name": "Parking Facilities (in thousands)"}                    
+           {"name": "Sea & Inland Port (in thousands)"}                    
+           {"name": "Transit Utilities (in thousands)"}                    
+           {"name": "Electric Utilities (in thousands)"}                    
+           {"name": "Gas Utilities (in thousands)"}                    
+           {"name": "Sewerage (in thousands)"}                    
+           {"name": "Solid Waste (in thousands)"}                    
+           {"name": "Waste Utilities (in thousands)"}                    
+          ]
         }
+        {
+          "name": "Combined Tax Rates",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+           {"name": "Fiscal Year"},
+           {"name": "Fiscal Year End"},
+           {"name": "County Income Tax"},
+           {"name": "State Income Tax"},
+           {"name": "Personal Property Tax"},
+           {"name": "Business Property Tax"},
+           {"name": "Sales & Use Tax"},
+           {"name": "Real Estate Tax"},
+           {"name": "Bed Tax"},
+           {"name": "Special Services Tax"},
+           {"name": "Other Tax 1 Rate"},
+           {"name": "Other Tax 1 Descriptor"},
+           {"name": "Other Tax 2 Rate"},
+           {"name": "Other Tax 2 Descriptor"}
+          ]
+        },
       ]
     },
     {
@@ -126,36 +243,114 @@
           "name": "Government Structure",
           "years": [2009],
           "children": [
-            {"name": "Financial Administration"},
-            {"name": "Other Governmental Administration"},
-            {"name": "Social Insurance Administration"},
-            {"name": "Libraries"},
-            {"name": "Natural Resources"},
-            {"name": "Parks & Recreation"},
-            {"name": "Elementray & Secondary Education"},
-            {"name": "Higher Education"},
-            {"name": "Housing & Community Development"},
-            {"name": "Helath"},
-            {"name": "Hospitals"},
-            {"name": "Correction"},
-            {"name": "Judicial & Legal Services"},
-            {"name": "Police Protection"},
-            {"name": "Other & Unallocable"},
-            {"name": "Fire Proctection -- Firefighters"},
-            {"name": "Fire Protection -- Other"},
-            {"name": "Public Welfare"},
-            {"name": "Air Tranportation"},
-            {"name": "Highways"},
-            {"name": "Sea & Inland Port"},
-            {"name": "Transit Utilities"},
-            {"name": "Electric Utilities"},
-            {"name": "Gas Utilities"},
-            {"name": "Sewerage"},
-            {"name": "Solid Waste"},
-            {"name": "Water Utilities"}
+            {"name": "County Government Structure"},
+            {"name": "Structure Subgroup"},
+            {"name": "Size of Board"},
+            {"name": "Administrator"},
+            {"name": "Region Code"},
+            {"name": "Division Code"},
+            {"name": "Notes"}
           ]
         }
       ]
+    },
+    {
+        "name": "Demographics",
+        "children": [
+        	{
+        		"name": "Population Levels and Trends",
+        		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+        		"children": [
+        			{"name": "Population"},
+        			{"name": "Population Growth Rate (from previous year)"}
+        		]
+        	},
+        	{
+        		"name": "Population Change Components",
+        		"years": [2011, 2012],
+        		"children": [
+        			{"name": "Current Population"},
+        			{"name": "Change in Population (from previous year)"},
+        			{"name": "Births"},
+        			{"name": "Deaths"},
+        			{"name": "Natural Population Increase"},
+        			{"name": "International Migration"},
+        			{"name": "Domestic Migration"},
+        			{"name": "Net Migration"},
+        			{"name": "Birth Rate"},
+        			{"name": "Death Rate"},
+        			{"name": "Natural Population Increase Rate"},
+        			{"name": "International Migration Rate"},
+        			{"name": "Domestic Migration Rate"},
+        			{"name": "Net Migration Rate"}
+        		]
+        	},
+        	{
+        		"name": "Population Density",
+        		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+        		"children": [
+        			{"name": "Population"},
+        			{"name": "Population Density"},
+        			{"name": "Population Density Growth Rate (from previous year)"},
+        			{"name": "Total Land"},
+        			{"name": "Total Federal Land"},
+        			{"name": "Inhabitable Land"}
+        		]
+        	},
+        	{
+        		"name": "Population by Age/Gender",
+        		"years": [2000, 2010, 2011, 2012],
+        		"children": [
+        			{"name": "Total Population"},
+        			{"name": "Male Population"},
+        			{"name": "Male Percent of Population"},
+        			{"name": "Female Population"},
+        			{"name": "Female Percent of Population"},
+        			{"name": "Under 5 years old Population"},
+        			{"name": "Under 5 years old Percent of Population"},
+        			{"name": "5-9 years olf Population"},
+        			{"name": "5-9 years old Percent of Population"},
+        			{"name": "10-14 years old Population"},
+        			{"name": "10-14 years old Percent of Population"},
+        			{"name": "15-19 years old Population"},
+        			{"name": "15-19 years old Percent of Population"},
+        			{"name": "20-24 years old Population"},
+        			{"name": "20-24 years old Percent of Population"},
+        			{"name": "25-29 years old Population"},
+        			{"name": "25-29 years old Percent of Population"},
+        			{"name": "30-34 years old Population"},
+        			{"name": "30-34 years old Percent of Population"},
+        			{"name": "35-39 years old Population"},
+        			{"name": "35-39 years old Percent of Population"},
+        			{"name": "40-54 years old Population"},
+        			{"name": "40-54 years old Percent of Population"},
+        			{"name": "55-59 years old Population"},
+        			{"name": "55-59 years old Percent of Population"},
+        			{"name": "60-74 years old Population"},
+        			{"name": "60-74 years old Percent of Population"},
+        			{"name": "75-89 years old Population"},
+        			{"name": "75-79 years old Percent of Population"},
+        			{"name": "80-84 years old Population"},
+        			{"name": "80-84 years old Percent of Population"},
+        			{"name": "85 years old and over Population"},
+        			{"name": "85 years old and over Percent of Population"}
+                ]
+        	},
+        	{
+        		"name": "Population by Ethnicity",
+        		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+        		"children": [
+        			{"name": "Total Population"},
+        			{"name": "White Alone"},
+        			{"name": "Black or African American Alone"},
+        			{"name": "American Indian or Alaskan Native"},
+        			{"name": "Asian Alone"},
+        			{"name": "Native Hawaiian or Other Pacific Islander Alone"},
+        			{"name": "Two or More Races"},
+        			{"name": "Hispanic or Latino Origin"}
+        		]
+        	}
+        ]
     },
     {
       "name": "Economy",
@@ -167,8 +362,8 @@
             {"name": "Total Households"},
             {"name": "Per Capita Income"},
             {"name": "Median Household Income"},
-            {"name": "Number of Households with Less than $10,000"},
-            {"name": "Percentage of Households with Less than $10,000"},
+            {"name": "Number of Households with Income Less than $10,000"},
+            {"name": "Percentage of Households with Income Less than $10,000"},
             {"name": "Number of Households with Income Between $10,000 - $14,999"},
             {"name": "Percentage of Households with Income Between $10,000 - $14,999"},
             {"name": "Number of Households with Income Between $15,000 - $24,999"},
@@ -247,7 +442,7 @@
         	]
         },
         {
-        	"name": "Public Elementary & Seconday Schools",
+        	"name": "Public Elementary & Secondary Schools",
         	"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010],
         	"children": [
         		{"name": "District Name"},
@@ -259,7 +454,7 @@
         		{"name": "District Type"},
         		{"name": "Lowest Grade Offered"},
         		{"name": "Highest Grade Offered"},
-        		{"name": "Totatl Students"},
+        		{"name": "Total Students"},
         		{"name": "FTE Teachers"},
         		{"name": "Pupil/Teacher Ratio"}
         	]
@@ -292,7 +487,7 @@
       "children": [
       	{
       		"name": "Payment in Lieu of Taxes (PILT)",
-      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+      		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
       		"children": [
       			{"name": "PILT Allocation"},
       			{"name": "Total Federal Land Area"},
@@ -310,7 +505,7 @@
       	},
       	{
       		"name": "Housing & Urban Development Grants",
-      		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
+      		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014],
       		"children": [
       			{"name": "Community Development Block Grants (CDBG) Allocation"},
       			{"name": "HOME Investment Partnerships (HOME) Allocation"},
@@ -337,12 +532,6 @@
 			     "name": "County Profile",
 				 "years": [2013],
 				 "children": [
-					{"name": "fips"},
-					{"name": "County Name"},
-					{"name": "State"},
-					{"name": "NACo Member"},
-					{"name": "Govermnet Type"},
-					{"name": "Population Size"},
 					{"name": "County Seat"},
 					{"name": "Year Founded"},
 					{"name": "Year Consolidated"},
@@ -357,7 +546,8 @@
 			   	"name": "Cities Within Counties",
 			   	"years": [2012],
 			   	"children": [
-			   		{"name": "City"}
+			   		{"name": "City"},
+			   		{"name": "Zip"}
 			   	]
 		   },
 		   {
@@ -397,7 +587,7 @@
         			{"name": "System Affiliation"},
         			{"name": "City"},
         			{"name": "Zip"},
-        			{"name": "Provide ID"},
+        			{"name": "Provider ID"},
         			{"name": "Number of Beds"},
         			{"name": "Number of Employees"},
         			{"name": "Gross Revenue"},
@@ -422,13 +612,12 @@
         			{"name": "Number of Certified Beds"},
         			{"name": "Number of Residents"},
         			{"name": "Percent of Occupied Beds"},
-        			{"name": "Program Participant"},
+        			{"name": "Program Participation"},
         			{"name": "Ownership"},
-        			{"name": "Resident & Family Counselors"},
+        			{"name": "Continuing Care Retirement Facility"},
         			{"name": "Special Focus Facility"},
         			{"name": "Health Survey Date"},
         			{"name": "Fire Survey Date"},
-        			{"name": "Sprinkler Status"},
         			{"name": "Located Within a Hospital?"},
         			{"name": "First Date Approved to Provide Service"}
         		]
@@ -489,6 +678,20 @@
         		"years": [2007],
         		"children": [
         			{"name": "Total Expenditures (in thousands)"},
+        			{"name": "Fire Protection (in thousands)"},
+        			{"name": "Protective Inspection (in thousands)"},
+        			{"name": "Current Operations (in thousands)"},
+        			{"name": "Construction (in thousands)"},
+        			{"name": "Other Capital Outlay (in thousands)"},
+        			{"name": "Intergovernmental to State (in thousands)"},
+        			{"name": "Intergovernmental to Local (in thousands)"}
+        		]
+        	},
+        	{
+        		"name": "Expenditures on Justice",
+        		"years": [2007],
+        		"children": [
+        			{"name": "Total Expenditures (in thousands)"},
         			{"name": "Correction (in thousands)"},
         			{"name": "Judicial & Legal Services (in thousands)"},
         			{"name": "Police Protection (in thousands)"},
@@ -526,8 +729,7 @@
         			{"name": "Held for Own State"},
         			{"name": "Held for Other State"},
         			{"name": "Held for Local Jurisdiction in State"},
-        			{"name": "Held for Local Jurisdiction outside the State"},
-        			{"name": "Held for Other Authorities"}
+        			{"name": "Held for Local Jurisdiction outside the State"}
         		]
         	},
         	{
@@ -558,13 +760,14 @@
         			{"name": "Jail Capacity"},
         			{"name": "Confined Persons"},
         			{"name": "Nonconfined Persons"},
-        			{"name": "Electronic Monitoring"},
+        			{"name": "Electronic Monitoring Program"},
         			{"name": "Home Detention"},
         			{"name": "Community Service"},
         			{"name": "Day Reporting"},
         			{"name": "Other Pretrial Supervision"},
         			{"name": "Other Alternative Work Programs"},
-        			{"name": "Alcohol/Drug Treatment Programs"}
+        			{"name": "Alcohol/Drug Treatment Programs"},
+        			{"name": "Other Nonconfined Programs"}
         		]
         	},
         	{
@@ -589,7 +792,7 @@
         			{"name": "Criminal, Misdemeanor Courts"},
         			{"name": "Juvenile/Family Courts"},
         			{"name": "Court Funding - Salaries"},
-        			{"name": "Court Funding - Building/Real Propert"},
+        			{"name": "Court Funding - Building/Real Property"},
         			{"name": "Court Funding - General Operating Expenses"},
         			{"name": "Court Operation"},
         			{"name": "Judges (Elected/Appointed)"},
@@ -634,7 +837,7 @@
         		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
         		"children": [
         			{"name": "Population"},
-        			{"name": "Housing Unit Estimate"},
+        			{"name": "Housing Unit Estimates"},
         			{"name": "Average Household Size"}
         		]
         	},
@@ -644,106 +847,10 @@
         		"children": [
         			{"name": "Total Housing Units"},
         			{"name": "Occupied Housing Units"},
-        			{"name": "Owner Occupied"},
-        			{"name": "Percent Owner Occupied"},
-        			{"name": "Renter Occupied"},
-        			{"name": "Percent Renter Occupied"}
-        		]
-        	}
-        ]
-    },
-    {
-        "name": "Demographics",
-        "children": [
-        	{
-        		"name": "Population",
-        		"years": [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
-        		"children": [
-        			{"name:": "Population"},
-        			{"name": "Population Growth Rate (From Previous Year)"}
-        		]
-        	},
-        	{
-        		"name": "Population Change Components",
-        		"years": [2012],
-        		"children": [
-        			{"name": "Current Population"},
-        			{"name": "Change in Population (From Previous Year)"},
-        			{"name": "Births"},
-        			{"name": "Deaths"},
-        			{"name": "Natural Population Increas"},
-        			{"name": "International Migration"},
-        			{"name": "Domestic Migration"},
-        			{"name": "Net Migration"},
-        			{"name": "Birth Rate"},
-        			{"name": "Death Rate"},
-        			{"name": "Natural Population Increase Rate"},
-        			{"name": "International Migration Rate"},
-        			{"name": "Domestic Migration Rate"},
-        			{"name": "Net Migration Rate"}
-        		]
-        	},
-        	{
-        		"name": "Population Density",
-        		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
-        		"children": [
-        			{"name": "Population"},
-        			{"name": "Population Density"},
-        			{"name": "Population Density Growth Rate (From Previous Year)"},
-        			{"name": "Total Land"},
-        			{"name": "Total Federal Land"},
-        			{"name": "Inhabitable Land"}
-        		]
-        	},
-        	{
-        		"name": "Population by Age/Gender",
-        		"years": [2000, 2010, 2012],
-        		"children": [
-        			{"name": "Total Population"},
-        			{"name": "Male Population"},
-        			{"name": "Male Percent of Population"},
-        			{"name": "Female Population"},
-        			{"name": "Female Percent of Population"},
-        			{"name": "Under 5 years old Population"},
-        			{"name": "Under 5 years old Percent of Population"},
-        			{"name": "10-14 years old Population"},
-        			{"name": "10-14 years old Percent of Population"},
-        			{"name": "15-19 years old Population"},
-        			{"name": "15-19 years old Percent of Population"},
-        			{"name": "20-24 years old Population"},
-        			{"name": "20-24 years old Percent of Population"},
-        			{"name": "25-29 years old Population"},
-        			{"name": "25-29 years old Percent of Population"},
-        			{"name": "30-34 years old Population"},
-        			{"name": "30-34 years old Percent of Population"},
-        			{"name": "35-39 years old Population"},
-        			{"name": "35-39 years old Percent of Population"},
-        			{"name": "40-54 years old Population"},
-        			{"name": "40-54 years old Percent of Population"},
-        			{"name": "55-59 years old Population"},
-        			{"name": "55-59 years old Percent of Population"},
-        			{"name": "60-74 years old Population"},
-        			{"name": "60-74 years old Percent of Population"},
-        			{"name": "75-89 years old Population"},
-        			{"name": "75-79 years old Percent of Population"},
-        			{"name": "80-84 years old Population"},
-        			{"name": "80-84 years old Percent of Population"},
-        			{"name": "85 and Over Population"},
-        			{"name": "85 and Over Percent of Population"}
-                ]
-        	},
-        	{
-        		"name": "Population by Ethnicity",
-        		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
-        		"children": [
-        			{"name": "Total Population"},
-        			{"name": "White Alone"},
-        			{"name": "Black or African American Alone"},
-        			{"name": "American Indian or Alaskan Native"},
-        			{"name": "Asian Alone"},
-        			{"name": "Native Hawaiian or Other Pacific Islander Alone"},
-        			{"name": "Two or More Races"},
-        			{"name": "Hispanic or Latino Origin"}
+        			{"name": "Owner-Occupied Housing Units"},
+        			{"name": "Percentage of Owner-Occupied Housing Units"},
+        			{"name": "Renter-Occupied Housing Units"},
+        			{"name": "Percentage of Renter-Occupied Housing Units"}
         		]
         	}
         ]
@@ -761,7 +868,7 @@
         			{"name": "Parks and Recreation (in thousands)"},
         			{"name": "Current Operations (in thousands)"},
         			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlays (in thousands)"},
+        			{"name": "Other Capital Outlay (in thousands)"},
         			{"name": "Intergovernmental to State (in thousands)"},
         			{"name": "Intergovernmental to Local (in thousands)"}
         		]
@@ -770,42 +877,42 @@
         		"name": "Libraries",
         		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
         		"children": [
-        			{"name": "Library Name"},
         			{"name": "Library Code"},
-        			{"name": "City"},
+        			{"name": "Library Name"},
         			{"name": "Address"},
+        			{"name": "City"},
         			{"name": "Zip"},
+        			{"name": "Population of Local Service Area"}
         			{"name": "Number of Central Service Outlets"},
         			{"name": "Number of Branches"},
         			{"name": "Number of Bookmobiles"},
         			{"name": "Full Time Librarians"},
         			{"name": "Total FTE Staff"},
         			{"name": "Annual Hours - All Outlets"},
-        			{"name": "Population - Local Service Area"},
-        			{"name": "Longitude"},
-        			{"name": "Latitude"},
         			{"name": "Total Operating Revenue"},
         			{"name": "Operating Revenue from Local Government"},
         			{"name": "Operating Revenue from State Government"},
         			{"name": "Operating Revenue from Federal Government"},
         			{"name": "Other Operating Revenue"},
-        			{"name": "Total Operating Expenditures"},
         			{"name": "Operating Expenditures Salaries and Benefits"},
         			{"name": "Operating Expenditures Lbirary Collections"},
         			{"name": "Other Operating Expenditures"},
+        			{"name": "Total Operating Expenditures"},
         			{"name": "Total Capital Revenue"},
         			{"name": "Total Capital Expenditures"},
         			{"name": "Library Collections Print Materials"},
         			{"name": "Library Collection Electronic Books"},
         			{"name": "Library Collection Audio"},
         			{"name": "Library Collection Video"},
+        			{"name": "Total Annual Visits"},
+        			{"name": "Total Annual Circulation"},
         			{"name": "Number of Computers Available"},
         			{"name": "Number of Computer Users"},
         			{"name": "Licensed Databases"},
-        			{"name": "Annual Visits"},
         			{"name": "Registered Borrowers"},
-        			{"name": "Total Annual Circulation"},
-        			{"name": "Total Programs"}
+        			{"name": "Total Programs"},
+        			{"name": "Longitude"},
+        			{"name": "Latitude"}
         		]
         	}
         ]
@@ -880,18 +987,21 @@
         			{"name": "All Bridges - Federal Owned"},
         			{"name": "All Bridges - Privately Owned"},
         			{"name": "All Bridges - State Owned"},
+        			{"name": "All Bridges - Local Owned"},
         			{"name": "Structurally Deficient Bridges - Total Bridges"},
         			{"name": "Structurally Deficient Bridges - City/Town Owned"},
         			{"name": "Structurally Deficient Bridges - County Owned"},
         			{"name": "Structurally Deficient Bridges - Federal Owned"},
         			{"name": "Structurally Deficient Bridges - Privately Owned"},
-        			{"name": "Structurally Deficient Bridges - Federal Owned"},
+        			{"name": "Structurally Deficient Bridges - State Owned"},
+        			{"name": "Structurally Deficient Bridges - Local Owned"},
         			{"name": "Functionally Obsolete Bridges - Total Bridges"},
         			{"name": "Functionally Obsolete Bridges - City/Town Owned"},
         			{"name": "Functionally Obsolete Bridges - County Owned"},
         			{"name": "Functionally Obsolete Bridges - Federal Owned"},
         			{"name": "Functionally Obsolete Bridges - Privately Owned"},
-        			{"name": "Functionally Obsolete Bridges - State Owned"}
+        			{"name": "Functionally Obsolete Bridges - State Owned"},
+        			{"name": "Functionally Obsolete Bridges - Local Owned"}
         		]
         	},
         	{
@@ -909,9 +1019,9 @@
         			{"name": "Share Interstate"},
         			{"name": "Share Other Freeway/Expressway"},
         			{"name": "Share Other Principle Arterial"},
-        			{"name": "Share Arterial"},
+        			{"name": "Share Minor Arterial"},
         			{"name": "Share Major Collector"},
-        			{"name": "Share Minor Collector"},
+        			{"name": "Share Urban Minor Collector"},
         			{"name": "Share Local"}
         		]
         	},
@@ -922,17 +1032,17 @@
         			{"name": "Total Public Road Miles"},
         			{"name": "State Highway Agency Road Miles"},
         			{"name": "County Highway Agency Road Miles"},
-        			{"name": "Town or Township Highway Agency Road Miles"},
-        			{"name": "Federal Agency Road Miles"},
         			{"name": "Other State Agency Road Miles"},
         			{"name": "Other Local Agency Road Miles"},
+        			{"name": "Privately Owned Road Miles"},
+        			{"name": "Town or Township Highway Agency Road Miles"},
+        			{"name": "City or Municipal Highway Agency Road Miles"},
         			{"name": "Other Public Instrumentality Road Miles"},
+        			{"name": "Indian Tribe/Nation Road Miles"},
+        			{"name": "Federal Agency Road Miles"},
         			{"name": "County Land Square Miles"},
         			{"name": "Total Road Miles per Square Mile"},
         			{"name": "Total County Road Miles per Square Mile"},
-        			{"name": "Privately Owned Road Miles"},
-        			{"name": "City or Municipal Highway Agency Road Miles"},
-        			{"name": "Indian Tribe/Nation Road Miles"},
         			{"name": "Unknown Road Miles"},
         			{"name": "Share State Highway Agency"},
         			{"name": "Share County Highway Agency"},
@@ -944,7 +1054,7 @@
         			{"name": "Share Other Public Instrumentality"},
         			{"name": "Share Indian Tribe/Nation"},
         			{"name": "Share Federal Agency"},
-        			{"name": "Share Unkown"}
+        			{"name": "Share Unknown"}
         		]
         	},
         	{
@@ -957,11 +1067,11 @@
         			{"name": "Other State Agency Road Miles"},
         			{"name": "Other Local Agency Road Miles"},
         			{"name": "Privately Owned Road Miles"},
-        			{"name": "Town of Township Highway Agency Road Miles"},
+        			{"name": "Town or Township Highway Agency Road Miles"},
         			{"name": "City or Municipal Highway Agency Road Miles"},
         			{"name": "Federal Agency Road Miles"},
         			{"name": "Other Public Instrumentality Road Miles"},
-        			{"name": "Unkown Road Miles"},
+        			{"name": "Unknown Road Miles"},
         			{"name": "Share State Highway Agency"},
         			{"name": "Share County Highway Agency"},
         			{"name": "Share Other State Agencies"},
@@ -969,10 +1079,9 @@
         			{"name": "Share Private"},
         			{"name": "Share Town or Township Highway Agency"},
         			{"name": "Share City or Municipal Highway Agency"},
-        			{"name": "Share Other Public Instrumentality"},
-        			{"name": "Share Indian Tribe/Nation"},
         			{"name": "Share Federal Agency"},
-        			{"name": "Share Unkown"}
+        			{"name": "Share Other Public Instrumentality"},
+        			{"name": "Share Unknown"}
         		]
         	}
         ]
@@ -1010,7 +1119,7 @@
         			{"name": "Water Utilities (in thousands)"},
         			{"name": "Operations (in thousands)"},
         			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlays (in thousands)"},
+        			{"name": "Other Capital Outlay (in thousands)"},
         			{"name": "Interests on Debt (in thousands)"},
         			{"name": "Intergovernmental to State (in thousands)"},
         			{"name": "Intergovernmental to Local (in thousands)"}
