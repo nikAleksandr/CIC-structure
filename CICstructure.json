@@ -8,72 +8,130 @@
           "name": "Expenditures on Administration",
           "years": [2007],
           "children": [
-            {"name": "Total Expenditures (in thousands)"},
-            {"name": "Financial Administration (in thousands)"},
-            {"name": "Other Governmental Administration (in thousands)"},
-            {"name": "Social Insurance Administration (in thousands)"},
-            {"name": "Current Operations (in thousands)"},
-            {"name": "Construction (in thousands)"},
-            {"name": "Capital Outlay (in thousands)"},
-            {"name": "Intergovernmental to State (in thousands)"},
-            {"name": "Intergovernmental to Local (in thousands)"}
+            {"name": "Total Expenditures", "unit": "thousands of dollars"},
+            {"name": "Financial Administration", "unit": "thousands of dollars"},
+            {"name": "Other Governmental Administration", "unit": "thousands of dollars"},
+            {"name": "Social Insurance Administration", "unit": "thousands of dollars"},
+            {"name": "Current Operations", "unit": "thousands of dollars"},
+            {"name": "Construction", "unit": "thousands of dollars"},
+            {"name": "Capital Outlay", "unit": "thousands of dollars"},
+            {"name": "Intergovernmental to State", "unit": "thousands of dollars"},
+            {"name": "Intergovernmental to Local", "unit": "thousands of dollars"}
           ]
         }
       ]
     },
     {
-      "name": "County Employment",
+      "name": "County FTE Employment",
       "children": [
         {
-          "name": "Total FTE Employees",
+          "name": "Adminstration Employment",
           "years": [2007, 2008, 2009, 2010, 2011],
           "children": [
-            {"name": "Total Number of FTE Employees"},
-            {"name": "Administration"},
-            {"name": "Community Amenity Services"},
-            {"name": "Education"},
-            {"name": "Housing & Community Development"},
-            {"name": "Health & Hospitals"},
-            {"name": "Justice"},
-            {"name": "Other"},
-            {"name": "Public Safety"},
-            {"name": "Public Welfare"},
-            {"name": "Transportation"},
-            {"name": "Utility Expenditure"},
-            {"name": "Water, Sewage & Solid Waste"}
+            {"name": "Total"},
+            {"name": "Total Adminstration"},
+          	{"name": "Financial Administration"},
+            {"name": "Other Governmental Administration"}
           ]
         },
         {
-          "name": "Total FTE Employees by detailed subcategory",
+          "name": "Public Amenity Employment",
           "years": [2007, 2008, 2009, 2010, 2011],
           "children": [
-            {"name": "Financial Administration"},
-            {"name": "Other Governmental Administration"},
-            {"name": "Social Insurance Administration"},
-            {"name": "Libraries"},
+          	{"name": "Total"},
+            {"name": "Total Public Amenity"},
+          	{"name": "Libraries"},
             {"name": "Natural Resources"},
-            {"name": "Parks & Recreation"},
-            {"name": "Elementary & Secondary Education"},
-            {"name": "Higher Education"},
-            {"name": "Housing & Community Development"},
-            {"name": "Health"},
-            {"name": "Hospitals"},
-            {"name": "Correction"},
+            {"name": "Parks & Recreation"}
+          ]
+        },
+        {
+          "name": "Education Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+            {"name": "Total"},
+            {"name": "Total Education"},
+          	{"name": "Elementary & Secondary Education"},
+            {"name": "Higher Education"}
+          ]
+        },
+        {
+          "name": "Housing & Community Development Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+          	{"name": "Housing & Community Development"}
+          ]
+        },
+        {
+          "name": "Health & Hospitals Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+            {"name": "Total Health & Hospitals"},
+          	{"name": "Health"},
+            {"name": "Hospitals"}
+          ]
+        },
+        {
+          "name": "Justice & Public Safety Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+            {"name": "Total Justice & Public Safety"},
+          	{"name": "Correction"},
             {"name": "Judicial & Legal Services"},
             {"name": "Police Protection"},
-            {"name": "Other & Unallocable"},
-            {"name": "Fire Protection - Firefighters"},
-            {"name": "Fire Protection - Other"},
-            {"name": "Public Welfare"},
-            {"name": "Air Tranportation"},
+            {"name": "Firefighters"}
+          ]
+        },
+        {
+          "name": "Public Welfare Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+          	{"name": "Public Welfare"}
+          ]
+        },
+        {
+          "name": "Transportation Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+            {"name": "Total Transportation"},
+          	{"name": "Air Tranportation"},
             {"name": "Highways"},
-            {"name": "Sea & Inland Port"},
-            {"name": "Transit Utilities"},
-            {"name": "Electric Utilities"},
-            {"name": "Gas Utilities"},
-            {"name": "Sewerage"},
+            {"name": "Water Transport & Terminals"},
+            {"name": "Transit"}
+          ]
+        },
+        {
+          "name": "Utility Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+            {"name": "Total Utility"},
+          	{"name": "Electric Utilities"},
+            {"name": "Gas Utilities"}
+          ]
+        },
+        {
+          "name": "Water, Sewage & Solid Waste Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+            {"name": "Total Water, Sewage & Solid Waste"},
+          	{"name": "Sewerage"},
             {"name": "Solid Waste"},
             {"name": "Water Utilities"}
+          ]
+        },
+        {
+          "name": "Other Employment",
+          "years": [2007, 2008, 2009, 2010, 2011],
+          "children": [
+          	{"name": "Total"},
+          	{"name": "Other & Unallocable"}
           ]
         }
       ]
@@ -82,39 +140,60 @@
       "name": "County Finance",
       "children": [
         {
-          "name": "Revenue by Sector",
+          "name": "Misc. Other Revenue",
           "years": [2007],
           "children": [
-           {"name": "Total Revenue (in thousands)"},
-           {"name": "Charges & Misc. General Revenue (in thousands)"},
-           {"name": "Tax (in thousands)"},
-           {"name": "Intergovernmental Revenue (in thousands)"},
-           {"name": "Liquor Store Revenue (in thousands)"},
-           {"name": "Social Insurance Trust Revenue (in thousands)"},
-           {"name": "Utility Revenue (in thousands)"}
+          	{"name": "Total", "unit": "thousands of dollars"},
+          	{"name": "Total Misc. Other", "unit": "thousands of dollars"},
+          	{"name": "Charges", "unit": "thousands of dollars"},
+            {"name": "Misc. General Revenue", "unit": "thousands of dollars"},
+            {"name": "Liquor Store Revenue", "unit": "thousands of dollars"}
           ]
         },
         {
-          "name": "Revenue by Detailed Subcategory Sector",
+          "name": "Intergovernmental Revenue",
           "years": [2007],
           "children": [
-           {"name": "Charges (in thousands)"},
-           {"name": "Misc. General Revenue (in thousands)"},
-           {"name": "Intergovernmental - From Federal Government (in thousands)"},
-           {"name": "Intergovernmental - From Local Government (in thousands)"},
-           {"name": "Intergovernmental - From State Government (in thousands)"},
-           {"name": "Liquor Store Revenue (in thousands)"},
-           {"name": "Social Insurance Trust Revenue - Public Employee Retirement Systems (in thousands)"},
-           {"name": "Social Insurance Trust Revenue - Unemployment Compensation Systems (in thousands)"},
-           {"name": "Tax - Income Taxes (in thousands)"},
-           {"name": "Tax - License Taxes (in thousands)"},
-           {"name": "Tax - Other Taxes (in thousands)"},
-           {"name": "Tax - Property Taxes (in thousands)"},
-           {"name": "Tax - Sales & Gross Receipts Taxes (in thousands)"},
-           {"name": "Utility Revenue - Electric Power Systems (in thousands)"},
-           {"name": "Utility Revenue - Gas Supply Systems (in thousands)"},
-           {"name": "Utility Revenue - Public Mass Transit Systems (in thousands)"},
-           {"name": "Utility Revenue - Water Supply Systems (in thousands)"}
+          	{"name": "Total", "unit": "thousands of dollars"},
+          	{"name": "Total Intergovernmental", "unit": "thousands of dollars"},
+          	{"name": "From Federal Government", "unit": "thousands of dollars"},
+           	{"name": "From Local Government", "unit": "thousands of dollars"},
+           	{"name": "From State Government", "unit": "thousands of dollars"}
+          ]
+        },
+        {
+          "name": "Social Insurance Trust Revenue",
+          "years": [2007],
+          "children": [
+          	{"name": "Total", "unit": "thousands of dollars"},
+          	{"name": "Total Social Insurance Trust", "unit": "thousands of dollars"},
+          	{"name": "Public Employee Retirement Systems", "unit": "thousands of dollars"},
+           	{"name": "Unemployment Compensation Systems", "unit": "thousands of dollars"}
+          ]
+        },
+        {
+          "name": "Tax Revenue",
+          "years": [2007],
+          "children": [
+          	{"name": "Total", "unit": "thousands of dollars"},
+          	{"name": "Total Tax", "unit": "thousands of dollars"},
+          	{"name": "Income Taxes", "unit": "thousands of dollars"},
+           	{"name": "License Taxes", "unit": "thousands of dollars"},
+           	{"name": "Other Taxes", "unit": "thousands of dollars"},
+           	{"name": "Property Taxes", "unit": "thousands of dollars"},
+           	{"name": "Tax - Sales & Gross Receipts Taxes", "unit": "thousands of dollars"}
+          ]
+        },
+        {
+          "name": "Utility Revenue",
+          "years": [2007],
+          "children": [
+          	{"name": "Total", "unit": "thousands of dollars"},
+          	{"name": "Total Utility", "unit": "thousands of dollars"},
+          	{"name": "Electric Power Systems", "unit": "thousands of dollars"},
+           	{"name": "Gas Supply Systems", "unit": "thousands of dollars"},
+           	{"name": "Public Mass Transit Systems", "unit": "thousands of dollars"},
+           	{"name": "Water Supply Systems", "unit": "thousands of dollars"}
           ]
         },
         {
@@ -173,46 +252,135 @@
           ]
         },
         {
-          "name": "Expenditures by Detailed Subcategory Sector",
-          "years": [2007],
-          "children": [
-           {"name": "Financial Administration (in thousands)"},
-           {"name": "Other Governmental Administration (in thousands)"},
-           {"name": "Social Insurance Administration (in thousands)"},
-           {"name": "Libraries (in thousands)"},
-           {"name": "Natural Resources (in thousands)"},
-           {"name": "Parks & Recreation (in thousands)"},
-           {"name": "Elementary & Secondary Education (in thousands)"},
-           {"name": "Higher Education (in thousands)"},
-           {"name": "Housing & Community Development (in thousands)"},
-           {"name": "Health (in thousands)"},
-           {"name": "Hospitals (in thousands)"},
-           {"name": "Interest on General Debt (in thousands)"},
-           {"name": "Employee Retirement (in thousands)"},
-           {"name": "Unemployment (in thousands)"},
-           {"name": "Correction (in thousands)"},
-           {"name": "Judicial & Legal Services (in thousands)"},
-           {"name": "Police Protection (in thousands)"},
-           {"name": "Liquor Stores (in thousands)"},
-           {"name": "Misc. Commercial Activities (in thousands)"},
-           {"name": "Other & Unallocable (in thousands)"},
-           {"name": "General Public Buildings (in thousands)"},
-           {"name": "Fire Protection (in thousands)"},
-           {"name": "Protective Inspection (in thousands)"},
-           {"name": "Cash Assistance (in thousands)"},
-           {"name": "Vendor Payments (in thousands)"},
-           {"name": "Other Public Welfare (in thousands)"},
-           {"name": "Air Transportation (in thousands)"},
-           {"name": "Highways (in thousands)"},
-           {"name": "Parking Facilities (in thousands)"},           
-           {"name": "Sea & Inland Port (in thousands)"},                    
-           {"name": "Transit Utilities (in thousands)"},                    
-           {"name": "Electric Utilities (in thousands)"},                    
-           {"name": "Gas Utilities (in thousands)"},                    
-           {"name": "Sewerage (in thousands)"},                    
-           {"name": "Solid Waste (in thousands)"},                    
-           {"name": "Waste Utilities (in thousands)"}                    
-          ]
+       	  "name": "Administration Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Administration", "units": "thousands of dollars"},
+       	  	{"name": "Financial Administration", "units": "thousands of dollars"},
+           	{"name": "Other Governmental Administration", "units": "thousands of dollars"},
+           	{"name": "Social Insurance Administration", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Public Amenity Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Public Amenity", "units": "thousands of dollars"},
+       	  	{"name": "Libraries", "units": "thousands of dollars"},
+           	{"name": "Natural Resources", "units": "thousands of dollars"},
+           	{"name": "Parks & Recreation", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Education Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Education", "units": "thousands of dollars"},
+       	  	{"name": "Elementary & Secondary Education", "units": "thousands of dollars"},
+           	{"name": "Higher Education", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Housing & Community Development Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Housing & Community Development", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Health & Hospitals Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Health & Hospitals", "units": "thousands of dollars"},
+       	  	{"name": "Health", "units": "thousands of dollars"},
+           	{"name": "Hospitals", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Financial Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Financial", "units": "thousands of dollars"},
+       	  	{"name": "Interest on General Debt", "units": "thousands of dollars"},
+           	{"name": "Insurance Trust - Employee Retirement", "units": "thousands of dollars"},
+           	{"name": "Insurance Trust - Unemployment", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Justice & Public Safety Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Justice & Public Safety", "units": "thousands of dollars"},
+       	  	{"name": "Correction", "units": "thousands of dollars"},
+           	{"name": "Judicial & Legal Services", "units": "thousands of dollars"},
+           	{"name": "Police Protection", "units": "thousands of dollars"},
+           	{"name": "Fire Protection", "units": "thousands of dollars"},
+           	{"name": "Protective Inspection", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Public Welfare Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Public Welfare", "units": "thousands of dollars"},
+       	  	{"name": "Cash Assistance", "units": "thousands of dollars"},
+           	{"name": "Vendor Payments", "units": "thousands of dollars"},
+           	{"name": "Other Public Welfare", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Transportation Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Transportation", "units": "thousands of dollars"},
+       	  	{"name": "Air Transportation", "units": "thousands of dollars"},
+          	{"name": "Highways", "units": "thousands of dollars"},
+           	{"name": "Parking Facilities", "units": "thousands of dollars"},           
+           	{"name": "Sea & Inland Port", "units": "thousands of dollars"},                    
+           	{"name": "Transit Utilities", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Utility Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Utility", "units": "thousands of dollars"},
+       	  	{"name": "Electric Utilities", "units": "thousands of dollars"},                    
+           	{"name": "Gas Utilities", "units": "thousands of dollars"}
+       	  ]
+        },
+        {
+       	  "name": "Water, Sewage & Solid Waste Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Administration", "units": "thousands of dollars"},
+       	  	{"name": "Sewerage", "units": "thousands of dollars"},                    
+           	{"name": "Solid Waste", "units": "thousands of dollars"},                    
+           	{"name": "Waste Utilities", "units": "thousands of dollars"}  
+       	  ]
+        },
+        {
+       	  "name": "Misc. Other Expenditures",
+       	  "years": [2007],
+       	  "children": [
+       	  	{"name": "Total", "units": "thousands of dollars"},
+       	  	{"name": "Total Administration", "units": "thousands of dollars"},
+       	  	{"name": "Liquor Stores (in thousands)"},
+          	{"name": "Misc. Commercial Activities (in thousands)"},
+          	{"name": "Other & Unallocable (in thousands)"},
+           	{"name": "General Public Buildings (in thousands)"}
+       	  ]
         },
         {
           "name": "Combined Tax Rates",
@@ -489,9 +657,12 @@
       		"name": "Payment in Lieu of Taxes (PILT)",
       		"years": [2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013],
       		"children": [
-      			{"name": "PILT Allocation"},
-      			{"name": "Total Federal Land Area"},
-      			{"name": "Total County Area"},
+      			{"name": "PILT Value",
+      			 "unit": "thousands of dollars"},
+      			{"name": "Total Federal Land Area",
+      			 "unit": "square miles"},
+      			{"name": "Total County Area",
+      			 "unit": "square miles"},
       			{"name": "Percentage of Federal Land"},
       			{"name": "PILT per Square Mile"}
       		]
