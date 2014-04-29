@@ -781,15 +781,41 @@
         "name": "Health & Hospitals",
         "children": [
         	{
+	          "name": "Health & Hospitals Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	            {"name": "Total Health & Hospitals"},
+	          	{"name": "Health"},
+	            {"name": "Hospitals"}
+	          ]
+	        },
+	        {
+	       	  "name": "Health & Hospitals Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Health & Hospitals", "units": "thousands of dollars"},
+	       	  	{"name": "Health", "units": "thousands of dollars"},
+	           	{"name": "Hospitals", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Other Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        },
+        	{
         		"name": "Hospitals",
         		"years": [2011],
         		"children": [
-        			{"name": "Facility Name"},
-        			{"name": "Facility Type"},
-        			{"name": "System Affiliation"},
-        			{"name": "City"},
-        			{"name": "Zip"},
-        			{"name": "Provider ID"},
+        			{"name": "Number of Hospitals"},
+        			{"name": "Number of County Facility"},
+        			{"name": "Number of City-County Facility"},
+        			{"name": "Number of Hospital District Facilities"},
+        			{"name": "Number of Other Government Facilities"},
+        			{"name": "Number of Proprietary Facilities"},
+        			{"name": "Number of Nonprofit Facilities"},
         			{"name": "Number of Beds"},
         			{"name": "Number of Employees"},
         			{"name": "Gross Revenue"},
@@ -797,31 +823,25 @@
         			{"name": "Medicaid Revenue"},
         			{"name": "Patient Days"},
         			{"name": "Revenue per Bed"},
-        			{"name": "Revenue per Patient Day"},
-        			{"name": "Average Length of Stay"},
-        			{"name": "Type of Control"}
+        			{"name": "Revenue per Patient Day"}
         		]
         	},
         	{
         		"name": "Nursing Homes",
         		"years": [2013],
         		"children": [
-        			{"name": "Provider Number"},
-        			{"name": "Facility Name"},
-        			{"name": "Address"},
-        			{"name": "City"},
-        			{"name": "Zip"},
+        			{"name": "Nubmer of Nursing Homes"},
+        			{"name": "Number of County Facility"},
+        			{"name": "Number of City-County Facility"},
+        			{"name": "Number of Hospital District Facilities"},
+        			{"name": "Number of Other Government Facilities"},
+        			{"name": "Number of For Profit Facilities"},
+        			{"name": "Number of Nonprofit Facilities"},
         			{"name": "Number of Certified Beds"},
         			{"name": "Number of Residents"},
         			{"name": "Percent of Occupied Beds"},
-        			{"name": "Program Participation"},
-        			{"name": "Ownership"},
-        			{"name": "Continuing Care Retirement Facility"},
-        			{"name": "Special Focus Facility"},
-        			{"name": "Health Survey Date"},
-        			{"name": "Fire Survey Date"},
-        			{"name": "Located Within a Hospital?"},
-        			{"name": "First Date Approved to Provide Service"}
+        			{"name": "Number of Continuing Care Retirement Facilities"},
+        			{"name": "Number of Special Focus Facilities"}
         		]
         	},
         	{
@@ -830,27 +850,22 @@
         		"children": [
         			{"name": "Population"},
         			{"name": "Population Insured"},
+        			{"name": "Percent Insured"},
         			{"name": "Population Uninsured"},
         			{"name": "Population with Private Health Insurance"},
         			{"name": "Population with Public Health Insurance"},
         			{"name": "Population Under 6"},
         			{"name": "Population Under 6 Insured"},
-        			{"name": "Population 6-17"},
-        			{"name": "Population 6-17 Insured"},
-        			{"name": "Population 18-24"},
-        			{"name": "Population 18-24 Insured"},
-        			{"name": "Population 25-34"},
-        			{"name": "Population 25-34 Insured"},
-        			{"name": "Population 35-44"},
-        			{"name": "Population 35-44 Insured"},
-        			{"name": "Population 45-54"},
-        			{"name": "Population 45-54 Insured"},
-        			{"name": "Population 55-64"},
-        			{"name": "Population 55-64 Insured"},
-        			{"name": "Population 65-74"},
-        			{"name": "Population 65-74 Insured"},
-        			{"name": "Population 75 and Over"},
-        			{"name": "Population 75 and Over Insured"}
+        			{"name": "Percent Under 6 Insured"},
+        			{"name": "Population 6-24"},
+        			{"name": "Population 6-24 Insured"},
+        			{"name": "Percent 6-24 Insured"},
+        			{"name": "Population 25-64"},
+        			{"name": "Population 25-64 Insured"},
+        			{"name": "Percent 25-64 Insured"},
+        			{"name": "Population 65 and Over"},
+        			{"name": "Population 65 and Over Insured"},
+        			{"name": "Percent 65 and Over Insured"}
         		]
         	}
         ]
@@ -859,51 +874,61 @@
         "name": "Housing & Community Development",
         "children": [
         	{
-        		"name": "Expenditures on Housing & Community Development",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Current Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlay (in thosands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	}
+	          "name": "Housing & Community Development Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	          	{"name": "Housing & Community Development"}
+	          ]
+	        },
+        	{
+	       	  "name": "Housing & Community Development Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Housing & Community Development", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Other Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        }
         ]
     },
     {
         "name": "Justice & Public Safety",
         "children": [
         	{
-        		"name": "Expenditures on Public Safety",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Fire Protection (in thousands)"},
-        			{"name": "Protective Inspection (in thousands)"},
-        			{"name": "Current Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlay (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	},
+	          "name": "Justice & Public Safety Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	            {"name": "Total Justice & Public Safety"},
+	          	{"name": "Correction"},
+	            {"name": "Judicial & Legal Services"},
+	            {"name": "Police Protection"},
+	            {"name": "Firefighters"}
+	          ]
+	        },
         	{
-        		"name": "Expenditures on Justice",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Correction (in thousands)"},
-        			{"name": "Judicial & Legal Services (in thousands)"},
-        			{"name": "Police Protection (in thousands)"},
-        			{"name": "Current Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlay (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	},
+	       	  "name": "Justice & Public Safety Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Justice & Public Safety", "units": "thousands of dollars"},
+	       	  	{"name": "Correction", "units": "thousands of dollars"},
+	           	{"name": "Judicial & Legal Services", "units": "thousands of dollars"},
+	           	{"name": "Police Protection", "units": "thousands of dollars"},
+	           	{"name": "Fire Protection", "units": "thousands of dollars"},
+	           	{"name": "Protective Inspection", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Other Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        },
         	{
         		"name": "Jails - Supervised Population",
         		"years": [2008, 2009, 2010],
@@ -973,34 +998,24 @@
         		]
         	},
         	{
-        		"name": "Public Safety",
+        		"name": "Public Safety Structure",
         		"years": [2012],
         		"children": [
-        			{"name": "Sheriff (Elected/Appointed/None)"},
-        			{"name": "Sheriff Department Funding"},
-        			{"name": "Sheriff Deparment Operations"},
-        			{"name": "Police Department (Elected/Appointed/None)"},
-        			{"name": "Police Department Funding"},
-        			{"name": "Police Department Operations"},
-        			{"name": "Cheif Law Enforcement Official"},
-        			{"name": "Policing Powers"},
-        			{"name": "County Jails Ownership"},
-        			{"name": "Jail Funding"},
-        			{"name": "Jail Operation"},
-        			{"name": "Department Responsible for Operation of County Jails"},
-        			{"name": "Civil, Small Claims Courts"},
-        			{"name": "Civil, Probate Courts"},
-        			{"name": "Criminal, Felony Courts"},
-        			{"name": "Criminal, Misdemeanor Courts"},
-        			{"name": "Juvenile/Family Courts"},
-        			{"name": "Court Funding - Salaries"},
-        			{"name": "Court Funding - Building/Real Property"},
-        			{"name": "Court Funding - General Operating Expenses"},
-        			{"name": "Court Operation"},
-        			{"name": "Judges (Elected/Appointed)"},
-        			{"name": "Clerks of Court (Elected/Appointed)"},
-        			{"name": "County Coroner/County Medical Examiner/State Medical Examiner"},
-        			{"name": "District Attorney (Elected/Appointed/Not a County Position)"}
+        			{"name": "Elected Sheriff"},
+        			{"name": "County Funded Sheriff Department"},
+        			{"name": "County Operated Sheriff Department"},
+        			{"name": "Elected Police Chief"},
+        			{"name": "County Funded Police Department"},
+        			{"name": "County Operated Police Department"},
+        			{"name": "County Funded Jails"},
+        			{"name": "County Operated Jails"},
+        			{"name": "County Funded Courts - Salaries"},
+        			{"name": "County Funded Courts - Building/Real Property"},
+        			{"name": "County Funded Courts - General Operating Expenses"},
+        			{"name": "County Operated Courts"},
+        			{"name": "Eelcted Judges"},
+        			{"name": "Elected Clerks of Court"},
+        			{"name": "Elected District Attorney"}
         		]
         		
         	}
@@ -1010,36 +1025,11 @@
         "name": "Land & Housing",
         "children": [
         	{
-        		"name": "County Parcel",
-        		"years": [2011],
-        		"children": [
-        			{"name": "Combined Total"},
-        			{"name": "Residential Total"},
-        			{"name": "Residential Single Family"},
-        			{"name": "Residential Condo/Townhouse"},
-        			{"name": "Residential Coop"},
-        			{"name": "Residential Farm/Ranch"},
-        			{"name": "Residential Lot/Land"},
-        			{"name": "Residential Mobile/Manufactured"},
-        			{"name": "Residential Multifamily/Multiplex"},
-        			{"name": "Residential Other"},
-        			{"name": "Commercial Total"},
-        			{"name": "Commercial Hospitality"},
-        			{"name": "Commercial Industrial"},
-        			{"name": "Commercial Lot/Land"},
-        			{"name": "Commercial Medical"},
-        			{"name": "Commercial Office"},
-        			{"name": "Commercial Other"},
-        			{"name": "Commercial Recreation/Entertainment"},
-        			{"name": "Commercial Retail"}
-        		]
-        	},
-        	{
         		"name": "Housing Units",
         		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
         		"children": [
         			{"name": "Population"},
-        			{"name": "Housing Unit Estimates"},
+        			{"name": "Number of Housing Units"},
         			{"name": "Average Household Size"}
         		]
         	},
@@ -1061,33 +1051,40 @@
         "name": "Public Amenities",
         "children": [
         	{
-        		"name": "Expenditure on Community Amenity Services",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Libraries (in thousands)"},
-        			{"name": "Natural Resources (in thousands)"},
-        			{"name": "Parks and Recreation (in thousands)"},
-        			{"name": "Current Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlay (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	},
+	          "name": "Public Amenity Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	            {"name": "Total Public Amenity"},
+	          	{"name": "Libraries"},
+	            {"name": "Natural Resources"},
+	            {"name": "Parks & Recreation"}
+	          ]
+	        },
+	        {
+	       	  "name": "Public Amenity Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Public Amenity", "units": "thousands of dollars"},
+	       	  	{"name": "Libraries", "units": "thousands of dollars"},
+	           	{"name": "Natural Resources", "units": "thousands of dollars"},
+	           	{"name": "Parks & Recreation", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Other Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        },
         	{
         		"name": "Libraries",
         		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011],
         		"children": [
-        			{"name": "Library Code"},
-        			{"name": "Library Name"},
-        			{"name": "Address"},
-        			{"name": "City"},
-        			{"name": "Zip"},
-        			{"name": "Population of Local Service Area"},
         			{"name": "Number of Central Service Outlets"},
         			{"name": "Number of Branches"},
-        			{"name": "Number of Bookmobiles"},
+        			{"name": "Number of Bookmobile"},
+        			{"name": "Population of Local Service Area"},
         			{"name": "Full Time Librarians"},
         			{"name": "Total FTE Staff"},
         			{"name": "Annual Hours - All Outlets"},
@@ -1102,19 +1099,17 @@
         			{"name": "Total Operating Expenditures"},
         			{"name": "Total Capital Revenue"},
         			{"name": "Total Capital Expenditures"},
-        			{"name": "Library Collections Print Materials"},
-        			{"name": "Library Collection Electronic Books"},
-        			{"name": "Library Collection Audio"},
-        			{"name": "Library Collection Video"},
+        			{"name": "Library Collections - Number of Print Materials"},
+        			{"name": "Library Collections - Number of Electronic Books"},
+        			{"name": "Library Collection - Number of Audio Materials"},
+        			{"name": "Library Collection - Number of Video Materials"},
         			{"name": "Total Annual Visits"},
         			{"name": "Total Annual Circulation"},
         			{"name": "Number of Computers Available"},
         			{"name": "Number of Computer Users"},
-        			{"name": "Licensed Databases"},
+        			{"name": "Number of Licensed Databases"},
         			{"name": "Registered Borrowers"},
-        			{"name": "Total Programs"},
-        			{"name": "Longitude"},
-        			{"name": "Latitude"}
+        			{"name": "Total Programs"}
         		]
         	}
         ]
@@ -1123,60 +1118,74 @@
         "name": "Public Welfare",
         "children": [
         	{
-        		"name": "Expenditures on Public Welfare",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Cash Assistance (in thousands)"},
-        			{"name": "Vendor Payments (in thousands)"},
-        			{"name": "Other Public Welfare (in thousands)"},
-        			{"name": "Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlays (in thousands)"},
-        			{"name": "Assistance and Subsidies (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	}
+	          "name": "Public Welfare Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	          	{"name": "Public Welfare"}
+	          ]
+	        },
+        	{
+	       	  "name": "Public Welfare Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Public Welfare", "units": "thousands of dollars"},
+	       	  	{"name": "Cash Assistance", "units": "thousands of dollars"},
+	           	{"name": "Vendor Payments", "units": "thousands of dollars"},
+	           	{"name": "Other Public Welfare", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Assistance & Subsidies", "units": "thousands of dollars"},
+	        	{"name": "Other Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        }
         ]
     },
     {
         "name": "Transportation",
         "children": [
         	{
-        		"name": "Expenditure on Transportation",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Air Transportation (in thousands)"},
-        			{"name": "Highways (in thousands)"},
-        			{"name": "Parking Facilities (in thousands)"},
-        			{"name": "Sea and Inland Port (in thousands)"},
-        			{"name": "Transit Utilities (in thousands)"},
-        			{"name": "Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlays (in thousands)"},
-        			{"name": "Interests on Debt (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		] 
-        	},
+	          "name": "Transportation Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	            {"name": "Total Transportation"},
+	          	{"name": "Air Tranportation"},
+	            {"name": "Highways"},
+	            {"name": "Water Transport & Terminals"},
+	            {"name": "Transit"}
+	          ]
+	        },
+        	{
+	       	  "name": "Transportation Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Transportation", "units": "thousands of dollars"},
+	       	  	{"name": "Air Transportation", "units": "thousands of dollars"},
+	          	{"name": "Highways", "units": "thousands of dollars"},
+	           	{"name": "Parking Facilities", "units": "thousands of dollars"},           
+	           	{"name": "Sea & Inland Port", "units": "thousands of dollars"},                    
+	           	{"name": "Transit Utilities", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Interests on Debt", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        },
         	{
         		"name": "Airports",
         		"years": [2013],
         		"children": [
-        			{"name": "City"},
-        			{"name": "Facility Name"},
-        			{"name": "Ownership"},
-        			{"name": "Use"},
-        			{"name": "Owner"},
-        			{"name": "Miles from CBD"},
-        			{"name": "Airport Land Area"},
-        			{"name": "Activation Date"},
-        			{"name": "Status Code"},
-        			{"name": "Customs Entry"},
-        			{"name": "ARP Latitude"},
-        			{"name": "ARP Longitude"}
+        			{"name": "Number of Airports"},
+        			{"name": "Number of Public Use Airports"},
+        			{"name": "Number of Private Use Airports"},
+        			{"name": "Number of County Owned Airports"}        			
         		]
         	},
         	{
@@ -1258,33 +1267,6 @@
         			{"name": "Share Federal Agency"},
         			{"name": "Share Unknown"}
         		]
-        	},
-        	{
-        		"name": "NHS Roads",
-        		"years": [2011],
-        		"children": [
-        			{"name": "Total NHS Road Miles"},
-        			{"name": "State Highway Agency Road Miles"},
-        			{"name": "County Highway Agency Road Miles"},
-        			{"name": "Other State Agency Road Miles"},
-        			{"name": "Other Local Agency Road Miles"},
-        			{"name": "Privately Owned Road Miles"},
-        			{"name": "Town or Township Highway Agency Road Miles"},
-        			{"name": "City or Municipal Highway Agency Road Miles"},
-        			{"name": "Federal Agency Road Miles"},
-        			{"name": "Other Public Instrumentality Road Miles"},
-        			{"name": "Unknown Road Miles"},
-        			{"name": "Share State Highway Agency"},
-        			{"name": "Share County Highway Agency"},
-        			{"name": "Share Other State Agencies"},
-        			{"name": "Share Other Local Agencies"},
-        			{"name": "Share Private"},
-        			{"name": "Share Town or Township Highway Agency"},
-        			{"name": "Share City or Municipal Highway Agency"},
-        			{"name": "Share Federal Agency"},
-        			{"name": "Share Other Public Instrumentality"},
-        			{"name": "Share Unknown"}
-        		]
         	}
         ]
     },
@@ -1292,41 +1274,76 @@
         "name": "Utility",
         "children": [
         	{
-        		"name": "Expenditure on Utlity",
-        		"year": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Electric Utilities (in thousands)"},
-        			{"name": "Gas Utilities (in thousands)"},
-        			{"name": "Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlay (in thousands)"},
-        			{"name": "Interests on Debt (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	}
+	          "name": "Utility Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	            {"name": "Total Utility"},
+	          	{"name": "Electric Utilities"},
+	            {"name": "Gas Utilities"}
+	          ]
+	        },
+	        {
+	          "name": "Utility Revenue",
+	          "years": [2007],
+	          "children": [
+	          	{"name": "Total", "unit": "thousands of dollars"},
+	          	{"name": "Total Utility", "unit": "thousands of dollars"},
+	          	{"name": "Electric Power Systems", "unit": "thousands of dollars"},
+	           	{"name": "Gas Supply Systems", "unit": "thousands of dollars"},
+	           	{"name": "Public Mass Transit Systems", "unit": "thousands of dollars"},
+	           	{"name": "Water Supply Systems", "unit": "thousands of dollars"}
+	          ]
+	        },
+        	{
+	       	  "name": "Utility Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Utility", "units": "thousands of dollars"},
+	       	  	{"name": "Electric Utilities", "units": "thousands of dollars"},                    
+	           	{"name": "Gas Utilities", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Interests on Debt", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
+	       	  ]
+	        }
         ]
     },
     {
         "name": "Water, Sewage & Solid Waste Management",
         "children": [
         	{
-        		"name": "Expenditure on Water, Sewage & Solid Waste",
-        		"years": [2007],
-        		"children": [
-        			{"name": "Total Expenditures (in thousands)"},
-        			{"name": "Sewerage (in thousands)"},
-        			{"name": "Solid Waste (in thousands)"},
-        			{"name": "Water Utilities (in thousands)"},
-        			{"name": "Operations (in thousands)"},
-        			{"name": "Construction (in thousands)"},
-        			{"name": "Other Capital Outlay (in thousands)"},
-        			{"name": "Interests on Debt (in thousands)"},
-        			{"name": "Intergovernmental to State (in thousands)"},
-        			{"name": "Intergovernmental to Local (in thousands)"}
-        		]
-        	}
+	          "name": "Water, Sewage & Solid Waste Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "children": [
+	          	{"name": "Total"},
+	            {"name": "Total Water, Sewage & Solid Waste"},
+	          	{"name": "Sewerage"},
+	            {"name": "Solid Waste"},
+	            {"name": "Water Utilities"}
+	          ]
+	        },
+        	{
+	       	  "name": "Water, Sewage & Solid Waste Expenditures",
+	       	  "years": [2007],
+	       	  "children": [
+	       	  	{"name": "Total", "units": "thousands of dollars"},
+	       	  	{"name": "Total Administration", "units": "thousands of dollars"},
+	       	  	{"name": "Sewerage", "units": "thousands of dollars"},                    
+	           	{"name": "Solid Waste", "units": "thousands of dollars"},                    
+	           	{"name": "Waste Utilities", "units": "thousands of dollars"},
+	       	  	{"name": "Current Operations", "units": "thousands of dollars"},
+	        	{"name": "Construction", "units": "thousands of dollars"},
+	        	{"name": "Capital Outlay", "units": "thousands of dollars"},
+	        	{"name": "Interests on Debt", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}  
+	       	  ]
+	        }
         ]
     }
   ]
