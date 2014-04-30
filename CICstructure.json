@@ -615,7 +615,11 @@
         	"children": [
         		{"name": "Number of Districts"},
         		{"name": "Number Operational Schools"},
-        		{"name": "District Type"},
+        		{"name": "Number of Local School Districts"},
+        		{"name": "Number of Federally-operated Institutions"},
+        		{"name": "Number of State-operated Institutions"},
+        		{"name": "Number of Charter School Agencies"},
+        		{"name": "Number of Other School Agencies"},
         		{"name": "Total Students"},
         		{"name": "FTE Teachers"},
         		{"name": "Pupil/Teacher Ratio"}
