@@ -461,9 +461,11 @@
           "years": [2009, 2014],
           "children": [
             {"name": "Gov Type"},
-            {"name": "Number of Elected Officials"},
-            {"name": "Has a County Administrator"},
-            {"name": "Size of Board"}
+            {"name": "Total Elected Officials"},
+            {"name": "Size of Board"},
+            {"name": "Elected Executive"},
+            {"name": "Number of Other Elected Officia"},
+            {"name": "County Administrator"}
           ]
         }
       ]
