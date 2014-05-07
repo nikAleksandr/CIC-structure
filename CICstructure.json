@@ -23,7 +23,7 @@
         },
         {
           "name": "Adminstration Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
             {"name": "Total"},
             {"name": "Total Adminstration"},
@@ -51,7 +51,7 @@
       "children": [
         {
           "name": "Adminstration Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
             {"name": "Total"},
             {"name": "Total Adminstration"},
@@ -61,7 +61,7 @@
         },
         {
           "name": "Public Amenity Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
             {"name": "Total Public Amenity"},
@@ -72,7 +72,7 @@
         },
         {
           "name": "Education Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
             {"name": "Total"},
             {"name": "Total Education"},
@@ -82,7 +82,7 @@
         },
         {
           "name": "Housing & Community Development Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
           	{"name": "Housing & Community Development"}
@@ -90,7 +90,7 @@
         },
         {
           "name": "Health & Hospitals Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
             {"name": "Total Health & Hospitals"},
@@ -100,7 +100,7 @@
         },
         {
           "name": "Justice & Public Safety Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
             {"name": "Total Justice & Public Safety"},
@@ -112,7 +112,7 @@
         },
         {
           "name": "Public Welfare Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
           	{"name": "Public Welfare"}
@@ -120,7 +120,7 @@
         },
         {
           "name": "Transportation Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
             {"name": "Total Transportation"},
@@ -132,7 +132,7 @@
         },
         {
           "name": "Utility Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
             {"name": "Total Utility"},
@@ -141,11 +141,11 @@
           ]
         },
         {
-          "name": "Water, Sewage & Solid Waste Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "name": "Water, Sewerage & Solid Waste Employment",
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
-            {"name": "Total Water, Sewage & Solid Waste"},
+            {"name": "Total Water, Sewerage & Solid Waste"},
           	{"name": "Sewerage"},
             {"name": "Solid Waste"},
             {"name": "Water Utilities"}
@@ -153,7 +153,7 @@
         },
         {
           "name": "Other Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
           	{"name": "Total"},
           	{"name": "Other & Unallocable"}
@@ -371,7 +371,7 @@
        	  ]
         },
         {
-       	  "name": "Water, Sewage & Solid Waste Expenditures",
+       	  "name": "Water, Sewerage & Solid Waste Expenditures",
        	  "years": [2007],
        	  "children": [
        	  	{"name": "Total", "units": "thousands of dollars"},
@@ -388,7 +388,7 @@
        	  ]
         },
         {
-       	  "name": "Misc. Other Expenditures",
+       	  "name": "Other Expenditures",
        	  "years": [2007],
        	  "children": [
        	  	{"name": "Total", "units": "thousands of dollars"},
@@ -400,7 +400,7 @@
         },
         {
           "name": "Annual Financial Report - Revenue",
-          "years": [2007, 2008, 2009, 2010, 2011, 2012],
+          "years": [2006, 2007, 2008, 2009, 2010],
           "children": [
            {"name": "Total Revenue"},
            {"name": "Total Taxes"},
@@ -415,7 +415,7 @@
         },
         {
           "name": "Annual Financial Report - Expenses",
-          "years": [2007, 2008, 2009, 2010, 2011, 2012],
+          "years": [2006, 2007, 2008, 2009, 2010],
           "children": [
            {"name": "Total Expenditures"},
            {"name": "General Government"},
@@ -458,9 +458,8 @@
       "children": [
         {
           "name": "Government Structure",
-          "years": [2009, 2014],
+          "years": [2014],
           "children": [
-            {"name": "Gov Type"},
             {"name": "Total Elected Officials"},
             {"name": "Size of Board"},
             {"name": "Elected Executive"},
@@ -515,7 +514,7 @@
         	},
         	{
         		"name": "Population by Age/Gender",
-        		"years": [2000, 2010, 2011, 2012],
+        		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
         		"children": [
         			{"name": "Total Population Level"},
         			{"name": "Male Population"},
@@ -553,7 +552,7 @@
       "children": [
         {
           "name": "Household Income",
-          "years": [2006, 2007, 2008, 2009, 2010, 2011, 2012],
+          "years": [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
             {"name": "Total Households"},
             {"name": "Per Capita Income"},
@@ -589,7 +588,7 @@
       "children": [
         {
           "name": "Education Employment",
-          "years": [2007, 2008, 2009, 2010, 2011],
+          "years": [2007, 2008, 2009, 2010, 2011, 2012],
           "children": [
             {"name": "Total"},
             {"name": "Total Education"},
@@ -685,12 +684,8 @@
       		"years": [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014],
       		"children": [
       			{"name": "Total HUD Amount", "units": "thousands of dollars"},
-      			{"name": "HUD Annual Growth Rate (from previous year)"},
-      			{"name": "Community Development Block Grants (CDBG) Amount", "units": "thousands of dollars"},
-      			{"name": "HOME Investment Partnerships (HOME) Amount", "units": "thousands of dollars"},
-      			{"name": "Housing Opportunities for Persons with AIDS (HOPWA) Amount", "units": "thousands of dollars"},
-      			{"Name": "Emergency Solutions Grant Program (ESG) Amount", "units": "thousands of dollars"}
-      		]
+      			{"name": "HUD Annual Growth Rate (from previous year)"}
+     		]
       	},
       	{
       		"name": "Housing Opportunities for Persons with AIDS (HOPWA)",
@@ -752,14 +747,6 @@
 			     ]
 		   },
 		   {
-			   	"name": "Cities Within Counties",
-			   	"years": [2012],
-			   	"children": [
-			   		{"name": "City"},
-			   		{"name": "Zip"}
-			   	]
-		   },
-		   {
 			   	"name": "Land & Water Area",
 			   	"years": [2010],
 			   	"children": [
@@ -789,7 +776,7 @@
         "children": [
         	{
 	          "name": "Health & Hospitals Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	            {"name": "Total Health & Hospitals"},
@@ -817,8 +804,9 @@
         		"years": [2011],
         		"children": [
         			{"name": "Number of Hospitals"},
-        			{"name": "Number of County Facility"},
-        			{"name": "Number of City-County Facility"},
+        			{"name": "Number of City Facilities"}
+        			{"name": "Number of County Facilities"},
+        			{"name": "Number of City-County Facilities"},
         			{"name": "Number of Hospital District Facilities"},
         			{"name": "Number of Other Government Facilities"},
         			{"name": "Number of Proprietary Facilities"},
@@ -835,11 +823,12 @@
         	},
         	{
         		"name": "Nursing Homes",
-        		"years": [2013],
+        		"years": [2014],
         		"children": [
-        			{"name": "Nubmer of Nursing Homes"},
-        			{"name": "Number of County Facility"},
-        			{"name": "Number of City-County Facility"},
+        			{"name": "Number of Nursing Homes"},
+        			{"name": "Number of City Facilities"}
+        			{"name": "Number of County Facilities"},
+        			{"name": "Number of City-County Facilities"},
         			{"name": "Number of Hospital District Facilities"},
         			{"name": "Number of Other Government Facilities"},
         			{"name": "Number of For Profit Facilities"},
@@ -882,7 +871,7 @@
         "children": [
         	{
 	          "name": "Housing & Community Development Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	          	{"name": "Housing & Community Development"}
@@ -922,14 +911,15 @@
         "children": [
         	{
 	          "name": "Justice & Public Safety Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	            {"name": "Total Justice & Public Safety"},
 	          	{"name": "Correction"},
 	            {"name": "Judicial & Legal Services"},
 	            {"name": "Police Protection"},
-	            {"name": "Firefighters"}
+	            {"name": "Fire Protection"},
+	            {"name": "Protective Inspection"}
 	          ]
 	        },
         	{
@@ -1047,7 +1037,7 @@
         "children": [
         	{
 	          "name": "Public Amenity Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	            {"name": "Total Public Amenity"},
@@ -1114,7 +1104,7 @@
         "children": [
         	{
 	          "name": "Public Welfare Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	          	{"name": "Public Welfare"}
@@ -1144,7 +1134,7 @@
         "children": [
         	{
 	          "name": "Transportation Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	            {"name": "Total Transportation"},
@@ -1178,9 +1168,9 @@
         		"years": [2013],
         		"children": [
         			{"name": "Number of Airports"},
-        			{"name": "Number of Public Use Airports"},
-        			{"name": "Number of Private Use Airports"},
-        			{"name": "Number of County Owned Airports"}        			
+        			{"name": "Number of Publicly Owned Airports"},
+        			{"name": "Number of Privately Owned Airports"},
+        			{"name": "Number of Military Owned Airports"}        			
         		]
         	},
         	{
@@ -1270,7 +1260,7 @@
         "children": [
         	{
 	          "name": "Utility Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
 	            {"name": "Total Utility"},
@@ -1309,25 +1299,25 @@
         ]
     },
     {
-        "name": "Water, Sewage & Solid Waste Management",
+        "name": "Water, Sewerage & Solid Waste Management",
         "children": [
         	{
-	          "name": "Water, Sewage & Solid Waste Employment",
-	          "years": [2007, 2008, 2009, 2010, 2011],
+	          "name": "Water, Sewerage & Solid Waste Employment",
+	          "years": [2007, 2008, 2009, 2010, 2011, 2012],
 	          "children": [
 	          	{"name": "Total"},
-	            {"name": "Total Water, Sewage & Solid Waste"},
+	            {"name": "Total Water, Sewerage & Solid Waste"},
 	          	{"name": "Sewerage"},
 	            {"name": "Solid Waste"},
 	            {"name": "Water Utilities"}
 	          ]
 	        },
         	{
-	       	  "name": "Water, Sewage & Solid Waste Expenditures",
+	       	  "name": "Water, Sewerage & Solid Waste Expenditures",
 	       	  "years": [2007],
 	       	  "children": [
 	       	  	{"name": "Total", "units": "thousands of dollars"},
-	       	  	{"name": "Total Administration", "units": "thousands of dollars"},
+	       	  	{"name": "Total Water, Sewerage & Solid Waste Management", "units": "thousands of dollars"},
 	       	  	{"name": "Sewerage", "units": "thousands of dollars"},                    
 	           	{"name": "Solid Waste", "units": "thousands of dollars"},                    
 	           	{"name": "Waste Utilities", "units": "thousands of dollars"},
@@ -1336,7 +1326,7 @@
 	        	{"name": "Capital Outlay", "units": "thousands of dollars"},
 	        	{"name": "Interests on Debt", "units": "thousands of dollars"},
 	        	{"name": "Intergovernmental to State", "units": "thousands of dollars"},
-	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}  
+	        	{"name": "Intergovernmental to Local", "units": "thousands of dollars"}
 	       	  ]
 	        }
         ]
