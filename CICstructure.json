@@ -804,7 +804,7 @@
         		"years": [2011],
         		"children": [
         			{"name": "Number of Hospitals"},
-        			{"name": "Number of City Facilities"}
+        			{"name": "Number of City Facilities"},
         			{"name": "Number of County Facilities"},
         			{"name": "Number of City-County Facilities"},
         			{"name": "Number of Hospital District Facilities"},
@@ -826,7 +826,7 @@
         		"years": [2014],
         		"children": [
         			{"name": "Number of Nursing Homes"},
-        			{"name": "Number of City Facilities"}
+        			{"name": "Number of City Facilities"},
         			{"name": "Number of County Facilities"},
         			{"name": "Number of City-County Facilities"},
         			{"name": "Number of Hospital District Facilities"},
